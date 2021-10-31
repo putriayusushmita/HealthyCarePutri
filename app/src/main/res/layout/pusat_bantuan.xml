@@ -99,6 +99,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#00FFFFFF"
+            android:minHeight="48dp"
             app:srcCompat="@drawable/square_chat_bubbles"
             tools:ignore="SpeakableTextPresentCheck" />
 
@@ -123,6 +124,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#00FFFFFF"
+            android:minHeight="48dp"
             app:srcCompat="@drawable/mail"
             tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
@@ -146,6 +148,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#00FFFFFF"
+            android:minHeight="48dp"
             app:srcCompat="@drawable/phone"
             tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
