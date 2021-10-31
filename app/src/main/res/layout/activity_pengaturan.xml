@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="406dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sinyalbiru" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="406dp"
+        android:layout_height="104dp"
+        android:layout_marginBottom="608dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/atasbiru" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="188dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="640dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bulatdonat" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="72dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="628dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bulatdua" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="169dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="640dp"
+        android:text="Pengaturan"
+        android:textAlignment="center"
+        android:textColor="#FAF8F8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="36dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="648dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/tandapanah" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="548dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/gambarorg" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="358dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="528dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Informasi Pribadi"
+        android:textAlignment="center"
+        android:textColor="#4345B5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="362dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="420dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Keamanan"
+        android:textAlignment="center"
+        android:textColor="#4C4EAA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="70dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="432dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/gmbarkeamanan" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="76dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="332dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/telepon" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="362dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="332dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Pusat Bantuan"
+        android:textAlignment="center"
+        android:textColor="#3A4CBF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.346"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="58dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="244dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/kluar" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="367dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="228dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Keluar"
+        android:textAlignment="center"
+        android:textColor="#244088"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="437dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/gambarbawah" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="67dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bulatbawah" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pluss" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rumahhh" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/orangbawah" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
