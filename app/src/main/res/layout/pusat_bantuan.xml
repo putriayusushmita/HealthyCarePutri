@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/latar"
-    tools:context=".MainActivity4">
+    tools:context=".PusatBantuanActivity">
 
     <ImageView
         android:id="@+id/imageView14"

@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthyCare2">
         <activity
-            android:name=".MainActivity4"
+            android:name=".PusatBantuanActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity3"
+            android:name=".PengaturanActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".ProfilActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
